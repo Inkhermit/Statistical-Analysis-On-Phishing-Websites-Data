@@ -1,0 +1,5 @@
+#my data ingest is simple:
+hdfs dfs -put index.csv hw/input/
+hdfs dfs -cp output/part-r-00000 ProjectInput/Input.csv
+
+
